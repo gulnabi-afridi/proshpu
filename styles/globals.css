@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.vision {
+  z-index: 1000;
+}
+
+.invision-bg {
+  position: absolute;
+  top: -280px;
+  left: -120px;
+  z-index: -100;
+}
+
+/* todo - remove that it's only for coming soon page*/
+.react-tel-input {
+  width: unset !important;
+}
+
+.react-tel-input .form-control {
+  height: 45.5px !important;
+  /* todo - uncomment that for home page - it's only for coming soon page*/
+  /*background: #fbfaf5 !important;*/
+}
+.react-tel-input .flag-dropdown {
+  background: #fbfaf5 !important;
+  border-right: 1px solid #fbfaf5 !important;
+}
+
+.PlayIconConrainer:hover .PlayIconForeground {
+  height: 115%;
+}
+.PlayIconConrainer:hover .PlayIcon {
+  width: 134px;
+  height: 134px;
+}
+.mobileMenu {
+  display: none;
+}
+
+.active-logo {
+  transform: scale(1.25);
+  transition: all .3s linear;
+}
+
+.n-active-logo {
+  filter: grayscale(100%);
+  opacity: 0.6;
+  -webkit-filter: grayscale(100%);
+}
+.active-year {
+  background: linear-gradient(90.05deg, #0db033 -30.69%, #28b078 118.83%);
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 150.9%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #fbfaf5;
+  padding: 14px 40px;
+  border: 2px solid #0db033;
+  cursor: pointer;
+  margin: 0px 10px;
+
+}
+.no-active-year {
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 150.9%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #fbfaf5;
+  padding: 14px 40px;
+  border: 2px solid #0db033;
+  cursor: pointer;
+  color: #0db033;
+  margin: 0px 10px;
+}
+@media only screen and (max-width: 768px) {
+  .desktopMenu {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+  }
+  .react-tel-input .form-control {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .active-year {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 0px 0px;
+  }
+  .no-active-year {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 0px 0px;
+  }
+}
+
+.float {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+/*    Floating Animations   */
+@keyframes floatAnimation {
+  0% {
+    /*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+    transform: translatey(0px);
+  }
+  50% {
+    /*box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);*/
+    transform: translatey(100px);
+  }
+  100% {
+    /*box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);*/
+    transform: translatey(0px);
+  }
+}
