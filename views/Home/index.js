@@ -1,18 +1,20 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import Header from "./Header";
+import Vision from "./Vision";
+
 
 const Index = () => {
   return (
     <div>
       <Layout>
         <Header />
-        {/* <Vision />
-        // <Invested />
-        // <Equity />
-        // <Video />
-        <Questions/>
-        <HowItWorks/> */}
+        <Vision />
+        {/* // <Invested /> */}
+        {/* // <Equity /> */}
+        {/* // <Video /> */}
+        {/* <Questions/> */}
+        {/* <HowItWorks/> */}
       </Layout>
     </div>
   );
