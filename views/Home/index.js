@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../../components/Layout";
-
+import Header from "./Header";
 
 const Index = () => {
   return (
     <div>
       <Layout>
-        {/* <Header /> */}
+        <Header />
         {/* <Vision />
         // <Invested />
         // <Equity />
