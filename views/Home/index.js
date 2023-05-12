@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import Header from "./Header";
 import Vision from "./Vision";
-
+import Invested from "./Invested";
 
 const Index = () => {
   return (
@@ -10,7 +10,7 @@ const Index = () => {
       <Layout>
         <Header />
         <Vision />
-        {/* // <Invested /> */}
+         <Invested />
         {/* // <Equity /> */}
         {/* // <Video /> */}
         {/* <Questions/> */}
