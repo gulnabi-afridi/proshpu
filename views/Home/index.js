@@ -3,6 +3,8 @@ import Layout from "../../components/Layout";
 import Header from "./Header";
 import Vision from "./Vision";
 import Invested from "./Invested";
+import Equity from "./Equity";
+
 
 const Index = () => {
   return (
@@ -11,7 +13,7 @@ const Index = () => {
         <Header />
         <Vision />
          <Invested />
-        {/* // <Equity /> */}
+         <Equity />
         {/* // <Video /> */}
         {/* <Questions/> */}
         {/* <HowItWorks/> */}
