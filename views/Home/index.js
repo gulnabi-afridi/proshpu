@@ -5,6 +5,8 @@ import Vision from "./Vision";
 import Invested from "./Invested";
 import Equity from "./Equity";
 import Video from "./Video";
+import Questions from "./Questions";
+
 
 const Index = () => {
   return (
@@ -15,7 +17,7 @@ const Index = () => {
          <Invested />
          <Equity />
        <Video />
-        {/* <Questions/> */}
+        <Questions/>
         {/* <HowItWorks/> */}
       </Layout>
     </div>
