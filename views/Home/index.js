@@ -4,7 +4,7 @@ import Header from "./Header";
 import Vision from "./Vision";
 import Invested from "./Invested";
 import Equity from "./Equity";
-
+import Video from "./Video";
 
 const Index = () => {
   return (
@@ -14,7 +14,7 @@ const Index = () => {
         <Vision />
          <Invested />
          <Equity />
-        {/* // <Video /> */}
+       <Video />
         {/* <Questions/> */}
         {/* <HowItWorks/> */}
       </Layout>
