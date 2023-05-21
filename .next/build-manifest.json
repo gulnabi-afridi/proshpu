@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/learn": [
+    "/legalpage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/learn.js"
+      "static/chunks/pages/legalpage.js"
     ]
   },
   "ampFirstPages": []
