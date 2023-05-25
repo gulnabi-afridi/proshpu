@@ -3,12 +3,16 @@ import DollarImg from "../../public/dollor.png";
 import AccountImg from "../../public/Account.png";
 import TransactionImg from "../../public/Transaction.png";
 import {Box} from "@mui/material";
+import PricingFirstSection from "./PricingFirstSection";
+import PricingSecSection from "./PricingSecSection";
+import Fees from "./Fees";
+
 
 function Pricing() {
   return (
     <div>
-      {/*   Top Pricing Section   */}
-      {/* <PricingFirstSection/> */}
+        {/* Top Pricing Section   */}
+      <PricingFirstSection/>
 
       <Box sx={{
         display: 'grid',
@@ -36,7 +40,7 @@ function Pricing() {
           gridColumn: '2/12',
           gridRow: '1/-1'
         }}>
-          {/* <PricingSecSection/> */}
+          <PricingSecSection/>
         </Box>
       </Box>
 
@@ -69,17 +73,18 @@ const TrendingFees = [
         feeType: "Securities",
         feeAmount: "$4.99",
       },
-      // {
-      //   feeType: "Fractional Shares",
-      //   feeAmount: "$3",
-      // },
-      // {
-      //   feeType: "Securities",
-      //   feeAmount: "Commission-free",
-      // },
+      {
+        feeType: "Fractional Shares",
+        feeAmount: "$3",
+      },
+      {
+        feeType: "Securities",
+        feeAmount: "Commission-free",
+      },
     ],
   },
 ];
+
 
 const AccountFees = [
   {
@@ -107,6 +112,7 @@ const AccountFees = [
     ],
   },
 ];
+
 
 const transactionFees = [
   {
